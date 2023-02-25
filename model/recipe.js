@@ -8,5 +8,5 @@ const recipeSchema = mongoose.Schema({
     direction:String
 })
 
-const recipeModel = mongoose.Schema("recipeModel", recipeSchema)
+const recipeModel = mongoose.model("recipeModel", recipeSchema)
 module.exports = recipeModel;
